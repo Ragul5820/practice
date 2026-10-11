@@ -1,0 +1,199 @@
+{
+  "users": [
+    {
+      "email": "student@demo.com",
+      "password": "$2b$10$Eq8vNILcPjZx/mBbXHb0b.jnZmCs7CjkEDhO0sYvVXKa4pdZ3R246",
+      "name": "Demo Student",
+      "role": "student",
+      "isApproved": true,
+      "id": "mlgtai5ffga7neh3ynv",
+      "createdAt": "2026-02-10T16:24:56.931Z"
+    },
+    {
+      "email": "teacher@demo.com",
+      "password": "$2b$10$Eq8vNILcPjZx/mBbXHb0b.jnZmCs7CjkEDhO0sYvVXKa4pdZ3R246",
+      "name": "Demo Teacher",
+      "role": "teacher",
+      "isApproved": true,
+      "id": "mlgtai5jbpzsuo5s4eo",
+      "createdAt": "2026-02-10T16:24:56.935Z"
+    },
+    {
+      "email": "admin@demo.com",
+      "password": "$2b$10$Eq8vNILcPjZx/mBbXHb0b.jnZmCs7CjkEDhO0sYvVXKa4pdZ3R246",
+      "name": "Demo Admin",
+      "role": "admin",
+      "isApproved": true,
+      "id": "mlgtai5n5q1v0bgth03",
+      "createdAt": "2026-02-10T16:24:56.939Z"
+    },
+    {
+      "email": "testrobot@demo.com",
+      "password": "$2b$10$66V9/mW60sNkIqyB.iSs.eqxVfCRY0krZfLHU8chmy.UGPAdjPes6",
+      "name": "Test Robot",
+      "role": "student",
+      "isApproved": true,
+      "id": "mmk70eivm8ef79cu0eb",
+      "createdAt": "2026-03-10T05:52:01.159Z",
+      "updatedAt": "2026-03-10T05:55:22.599Z"
+    },
+    {
+      "email": "ragul@demo.com",
+      "password": "$2b$10$EqjqIKgXq2azGJxEHc7uFu00auZVMhLBbwl/iAooggHwAQ3uLvola",
+      "name": "Ragul",
+      "role": "student",
+      "isApproved": true,
+      "id": "mocgq3utq9rptmo6s9",
+      "createdAt": "2026-04-24T05:21:12.197Z",
+      "updatedAt": "2026-04-24T05:23:28.504Z"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Python Fundamentals",
+      "description": "Learn the basics of Python programming",
+      "difficulty": "Beginner",
+      "language": "python",
+      "modules": [
+        {
+          "title": "Introduction to Python",
+          "lessons": 5
+        },
+        {
+          "title": "Variables and Data Types",
+          "lessons": 4
+        },
+        {
+          "title": "Control Flow",
+          "lessons": 6
+        }
+      ],
+      "id": "mlgtai5qx9oq7ltqmvr",
+      "createdAt": "2026-02-10T16:24:56.942Z"
+    },
+    {
+      "title": "Data Structures in Java",
+      "description": "Master essential data structures using Java",
+      "difficulty": "Intermediate",
+      "language": "java",
+      "modules": [
+        {
+          "title": "Arrays and Lists",
+          "lessons": 5
+        },
+        {
+          "title": "Stacks and Queues",
+          "lessons": 4
+        },
+        {
+          "title": "Trees and Graphs",
+          "lessons": 7
+        }
+      ],
+      "id": "mlgtai5ug7twqu222k",
+      "createdAt": "2026-02-10T16:24:56.946Z"
+    },
+    {
+      "title": "JavaScript Mastery",
+      "description": "Become proficient in modern JavaScript",
+      "difficulty": "Advanced",
+      "language": "javascript",
+      "modules": [
+        {
+          "title": "ES6+ Features",
+          "lessons": 6
+        },
+        {
+          "title": "Async Programming",
+          "lessons": 5
+        },
+        {
+          "title": "DOM Manipulation",
+          "lessons": 4
+        }
+      ],
+      "id": "mlgtai5ydw326pacvgu",
+      "createdAt": "2026-02-10T16:24:56.950Z"
+    },
+    {
+      "title": "c",
+      "description": "c demo",
+      "difficulty": "Beginner",
+      "language": "c",
+      "modules": [
+        {
+          "title": "hello world",
+          "lessons": 1
+        }
+      ],
+      "createdAt": "2026-04-24T10:07:08.098Z",
+      "id": "mocqxtfmx8u1eva466"
+    }
+  ],
+  "assessments": [
+    {
+      "title": "Robotic Logic 101",
+      "description": "A test of your robotic reasoning skills.",
+      "timeLimit": 30,
+      "points": 100,
+      "questions": [
+        {
+          "question": "What is the first law of robotics?",
+          "options": [
+            "A robot may not injure a human being.",
+            "A robot must obey orders.",
+            "A robot must protect its own existence.",
+            "A robot must be shiny."
+          ],
+          "correctOption": 0
+        }
+      ],
+      "createdBy": "mlgtai5n5q1v0bgth03",
+      "id": "mmk7ceoidlra54agxog",
+      "createdAt": "2026-03-10T06:01:21.234Z"
+    }
+  ],
+  "submissions": [
+    {
+      "assessmentId": "mmk7ceoidlra54agxog",
+      "userId": "mlgtai5ffga7neh3ynv",
+      "answers": [
+        2
+      ],
+      "score": 0,
+      "percentage": 0,
+      "correct": 0,
+      "total": 1,
+      "breakdown": [
+        {
+          "question": "What is the first law of robotics?",
+          "selectedOption": 2,
+          "correctOption": 0,
+          "isCorrect": false
+        }
+      ],
+      "assessmentTitle": "Robotic Logic 101",
+      "id": "mnojzo66lkovpnby0jb",
+      "createdAt": "2026-04-07T11:46:09.054Z"
+    }
+  ],
+  "enrollments": [
+    {
+      "userId": "mlgtai5ffga7neh3ynv",
+      "courseId": "mlgtai5qx9oq7ltqmvr",
+      "enrolledAt": "2026-03-10T06:07:50.689Z",
+      "status": "active",
+      "id": "mmk7kr6teqfsi09p0b8",
+      "createdAt": "2026-03-10T06:07:50.693Z"
+    },
+    {
+      "userId": "mlgtai5ffga7neh3ynv",
+      "courseId": "mocqxtfmx8u1eva466",
+      "enrolledAt": "2026-04-24T10:07:42.968Z",
+      "status": "active",
+      "id": "mocqykc9kzbd3wraf4e",
+      "createdAt": "2026-04-24T10:07:42.969Z"
+    }
+  ],
+  "progress": []
+}
